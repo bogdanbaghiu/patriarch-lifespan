@@ -33,7 +33,7 @@ export class CustomChart extends Component {
                     options={this.state.options}
                     series={this.state.series}
                     type="rangeBar"
-                    width="110%"
+                    width="1280px"
                 />
             </div>
         )

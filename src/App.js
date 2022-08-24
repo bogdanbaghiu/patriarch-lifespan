@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
+import CustomChart from "./chart-component/custom-chart";
 import CustomAnnotations from "./chart-component/options/annotations";
 import Legends from "./chart-component/options/legends";
 import BORNDATA from "./data/born";
@@ -63,14 +64,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <div className="mixed-chart">
-          <Chart
-            options={this.state.options}
-            series={this.state.series}
-            type="rangeBar"
-            width="110%"
-          />
-        </div>
+        <CustomChart />
       </div>
     );
   }

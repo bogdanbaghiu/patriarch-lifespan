@@ -16,12 +16,12 @@ const BORNDATA = [
     { x: 'Peleg', y: [1757, 1787] },
     { x: 'Reu', y: [1787, 1819] },
     { x: 'Serug', y: [1819, 1849] },
-    { x: 'Nahor', y: [1849, 1948] },
-    { x: 'Terah', y: [1948, 2018] },
-    { x: 'Avraam', y: [2018, 2118] },
-    { x: 'Isaac', y: [2118, 2178] },
-    { x: 'Iacov', y: [2178, 2269] },
-    { x: 'Iosif', y: [2269, 2299] },
+    { x: 'Nahor', y: [1849, 1878] },
+    { x: 'Terah', y: [1878, 1948] },
+    { x: 'Avraam', y: [1948, 2048] },
+    { x: 'Isaac', y: [2048, 2108] },
+    { x: 'Iacov', y: [2108, 2199] },
+    { x: 'Iosif', y: [2199, 2229] },
 ];
 
 export default BORNDATA;

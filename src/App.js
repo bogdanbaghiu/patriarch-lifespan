@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
+import CustomAnnotations from "./chart-component/options/annotations";
+import Legends from "./chart-component/options/legends";
 import BORNDATA from "./data/born";
 import LIVEDATA from "./data/live";
 
@@ -14,46 +16,13 @@ class App extends Component {
           data: BORNDATA
         },
         {
-          name: 'Perioadă de timp cu fii',
+          name: 'Perioadă trăită după ce a avut fii',
           data: LIVEDATA
         },
       ],
       options: {
-        annotations: {
-          xaxis: [
-            {
-              x: 1656,
-              type: 'numeric',
-              borderColor: "transparent",
-              label: {
-                borderColor: "transparent",
-                style: {
-                  color: "#FEB019",
-                  fontSize: '14px',
-                },
-                orientation: "horizontal",
-                text: "1656",
-                position: "bottom",
-                offsetY: 22,
-              },
-            },
-            {
-              x: 1656,
-              type: 'numeric',
-              borderColor: "#FEB019",
-              label: {
-                borderColor: "#FEB019",
-                style: {
-                  color: "#fff",
-                  background: "#FEB019",
-                  fontSize: '14px',
-                },
-                orientation: "horizontal",
-                text: "POTOP",
-              }
-            },
-          ]
-        },
+        annotations: CustomAnnotations,
+        legend: Legends,
         colors: ['#ff0000', '#E7E6E6'],
         chart: {
           type: 'rangeBar',
@@ -79,10 +48,6 @@ class App extends Component {
         fill: {
           type: 'solid',
           opacity: 1
-        },
-        legend: {
-          position: 'top',
-          horizontalAlign: 'left'
         },
         dataLabels: {
           enabled: true,

@@ -64,8 +64,19 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <h1 style={{
+          color: "#111",
+          fontFamily: '"Open Sans Condensed", sans-serif',
+          fontSize: "46px",
+          fontWeight: "700",
+          lineHeight: "64px",
+          margin: "0 0 0",
+          padding: "20px 30px",
+          textAlign: "center",
+          textTransform: "uppercase",
+        }}>Durata de viață a patriarhilor</h1>
         <CustomChart />
-      </div>
+      </div >
     );
   }
 }

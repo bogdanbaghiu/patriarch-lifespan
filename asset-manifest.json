@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/patriarch-lifespan/static/css/main.e6c13ad2.css",
+    "main.js": "/patriarch-lifespan/static/js/main.6384555c.js",
+    "static/js/787.e6a01196.chunk.js": "/patriarch-lifespan/static/js/787.e6a01196.chunk.js",
+    "index.html": "/patriarch-lifespan/index.html",
+    "main.e6c13ad2.css.map": "/patriarch-lifespan/static/css/main.e6c13ad2.css.map",
+    "main.6384555c.js.map": "/patriarch-lifespan/static/js/main.6384555c.js.map",
+    "787.e6a01196.chunk.js.map": "/patriarch-lifespan/static/js/787.e6a01196.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6384555c.js"
+  ]
+}

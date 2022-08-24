@@ -8,6 +8,9 @@ const Options = {
     chart: {
         type: 'rangeBar',
         width: '80%',
+        zoom: {
+            enabled: false,
+        },
     },
     plotOptions: {
         bar: {

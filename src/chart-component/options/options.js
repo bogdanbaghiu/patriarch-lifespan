@@ -4,7 +4,7 @@ import Legends from "./legends";
 const Options = {
     annotations: CustomAnnotations,
     legend: Legends,
-    colors: ['#ff0000', '#E7E6E6'],
+    colors: ['#FF0000', '#E7E6E6'],
     chart: {
         type: 'rangeBar',
         width: '80%',
